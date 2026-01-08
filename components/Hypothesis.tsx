@@ -27,6 +27,19 @@ export const Hypothesis = () => {
                                 "The solution is an agent access layer that turns any REST API into agent-ready tools in minutes."
                             </p>
                         </div>
+                        <motion.div
+                            initial={{ opacity: 0, y: 10 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.4 }}
+                        >
+                            <button 
+                                onClick={() => window.open('https://www.notion.so/brevisai/OpenToolset-Hypothesis-doc-2e1c2084afbe803fb63bf9fbd729a295?source=copy_link', '_blank')}
+                                className="px-6 py-3 rounded-xl border border-cyan-500/30 bg-cyan-950/20 backdrop-blur-xl text-cyan-400 font-bold hover:bg-cyan-950/40 hover:border-cyan-500/50 transition-colors"
+                            >
+                                Read Full Hypothesis (5 min read)
+                            </button>
+                        </motion.div>
                     </motion.div>
                 </div>
 

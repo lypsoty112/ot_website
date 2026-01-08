@@ -79,6 +79,12 @@ export const Hero = () => {
                             </button>
                         </div>
                     </div>
+                    <button 
+                        onClick={() => window.open('https://www.notion.so/brevisai/OpenToolset-Hypothesis-doc-2e1c2084afbe803fb63bf9fbd729a295?source=copy_link', '_blank')}
+                        className="px-6 py-3 rounded-xl border border-white/20 bg-white/5 backdrop-blur-xl text-white font-bold hover:bg-white/10 transition-colors whitespace-nowrap"
+                    >
+                        Read Hypothesis (5 min)
+                    </button>
                 </div>
             </motion.div>
 
