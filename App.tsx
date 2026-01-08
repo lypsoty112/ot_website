@@ -41,9 +41,9 @@ export default function App() {
             whileHover={{ rotate: 90, scale: 1.1 }}
             className="w-10 h-10 bg-white rounded-xl flex items-center justify-center font-black text-black text-2xl shadow-[0_0_20px_rgba(255,255,255,0.3)]"
           >
-            <img src="/logo.png" alt="opentoolset" width={40} height={40} />
+            <img src="/logo.png" alt="OpenToolset" width={40} height={40} />
           </motion.div>
-          <span className="font-black tracking-tighter text-2xl group-hover:text-cyan-400 transition-colors hidden sm:block">opentoolset</span>
+          <span className="font-black tracking-tighter text-2xl group-hover:text-cyan-400 transition-colors hidden sm:block">OpenToolset</span>
         </div>
 
         <nav className="flex items-center gap-8 pointer-events-auto bg-black/50 backdrop-blur-md px-8 py-3 rounded-full border border-white/10 shadow-2xl">

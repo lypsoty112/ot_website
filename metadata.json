@@ -1,5 +1,25 @@
 {
-  "name": "opentoolset - The Agentic API Layer",
-  "description": "A futuristic landing page for opentoolset, a platform that transforms REST APIs into agent-ready toolsets with semantic mapping and intent tracking.",
+  "name": "OpenToolset - The Agentic API Layer",
+  "description": "A futuristic landing page for OpenToolset, a platform that transforms REST APIs into agent-ready toolsets with semantic mapping and intent tracking.",
+  "version": "0.0.0",
+  "author": "Maarten Boon & BREVIS AI",
+  "keywords": [
+    "AI",
+    "API",
+    "REST API",
+    "agent",
+    "agentic",
+    "tools",
+    "semantic mapping",
+    "intent tracking",
+    "developer tools",
+    "API integration"
+  ],
+  "homepage": "https://opentoolset.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opentooling/opentooling"
+  },
+  "license": "UNLICENSED",
   "requestFramePermissions": []
 }
