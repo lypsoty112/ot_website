@@ -14,9 +14,9 @@ export const Playground = () => {
     const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
 
     const code: Record<string, string> = {
-        ts: `import { OpenTooling } from "@opentooling/sdk";
+        ts: `import { opentoolset } from "@opentoolset/sdk";
 
-const agent = new OpenTooling({
+const agent = new opentoolset({
   apiKey: process.env.OT_KEY,
   namespace: "ecommerce"
 });
@@ -26,7 +26,7 @@ const result = await agent.execute(
 );
 
 console.log(result.data);`,
-        py: `from opentooling import Agent
+        py: `from opentoolset import Agent
 
 agent = Agent(
     api_key="ot_...",
@@ -40,10 +40,10 @@ result = agent.execute(
 print(result.data)`,
         go: `package main
 
-import "github.com/opentooling/sdk-go"
+import "github.com/opentoolset/sdk-go"
 
 func main() {
-    agent := opentooling.NewAgent("ecommerce")
+    agent := opentoolset.NewAgent("ecommerce")
     
     res, _ := agent.Execute(
         "Find the best-selling blue shirt",
@@ -66,7 +66,7 @@ func main() {
                     </div>
                     <h2 className="text-4xl md:text-6xl font-bold leading-tight">Implement in minutes, <br /> not weeks.</h2>
                     <p className="text-gray-400 text-xl leading-relaxed max-w-lg">
-                        Add OpenTooling's SDK to your agent. Browse available APIs and add them with a single line of code.
+                        Add opentoolset's SDK to your agent. Browse available APIs and add them with a single line of code.
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         {[

@@ -49,7 +49,7 @@ export const Comparison = () => {
                     </div>
                     <h2 className="text-4xl md:text-5xl font-bold">Tools ≠ Endpoints</h2>
                     <p className="text-gray-400 text-lg leading-relaxed">
-                        A single endpoint might become multiple specialized tools. OpenTooling analyzes your endpoints and creates AI-ready tools optimized for agent behavior, not just REST structure.
+                        A single endpoint might become multiple specialized tools. opentoolset analyzes your endpoints and creates AI-ready tools optimized for agent behavior, not just REST structure.
                     </p>
                 </motion.div>
 

@@ -50,7 +50,7 @@ export const Dashboard = () => {
                                 <div className="w-3.5 h-3.5 rounded-full bg-green-500/50" />
                             </div>
                             <div className="px-4 py-2 bg-white/5 border border-white/10 rounded-xl text-xs font-mono text-gray-500">
-                                insights.opentooling.io/realtime/intents
+                                insights.opentoolset.io/realtime/intents
                             </div>
                         </div>
                         <div className="flex gap-4">

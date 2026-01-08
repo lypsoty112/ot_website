@@ -82,7 +82,7 @@ export const Hypothesis = () => {
                             whileInView={{ opacity: 1, scale: 1, x: "-50%", y: "-50%" }}
                             transition={{ delay: 1.2 }}
                         >
-                            OpenTooling
+                            opentoolset
                         </motion.div>
 
                         {/* Flowing Data Particles */}
