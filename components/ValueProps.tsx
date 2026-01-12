@@ -29,30 +29,30 @@ export const ValueProps = () => {
                     <div className="space-y-8">
                         <div className="flex items-center gap-3 mb-8">
                             <div className="px-4 py-1.5 rounded-full bg-cyan-950/50 border border-cyan-500/20 text-cyan-400 text-xs font-bold uppercase tracking-wider">
-                                For API Owners
+                                For E-Commerce APIs
                             </div>
-                            <h3 className="text-2xl font-bold">Control & Intelligence</h3>
+                            <h3 className="text-2xl font-bold">Zero-Click Ready</h3>
                         </div>
 
                         <div className="grid gap-4">
                             <ValueCard
                                 icon={CheckCircle}
-                                title="Granular Control"
-                                description="Define behavioral guardrails. Decide which endpoints become tools. Version control updates without breaking integration."
+                                title="Agent-Optimized Flows"
+                                description="Enable zero-click buying. Map purchase intent to optimized checkout flows. Control which products and actions agents can access."
                                 color="cyan"
                                 delay={0.1}
                             />
                             <ValueCard
                                 icon={BarChart}
-                                title="Deep Intelligence"
-                                description="Semantic usage patterns. Identify gaps and missing features. Compare agent vs human ROI directly."
+                                title="Agent Traffic Intelligence"
+                                description="Track agent vs human behavior. See conversion rates, purchase patterns, and identify optimization opportunities for agent-driven sales."
                                 color="cyan"
                                 delay={0.2}
                             />
                             <ValueCard
                                 icon={Rocket}
-                                title="New Distribution"
-                                description="Become discoverable to agent developers. 'AI-ready' positioning differentiates you in a crowded market."
+                                title="Capture Agent Market"
+                                description="Be discoverable to agent platforms. Enable seamless purchases without human clicks. Capture the 20%+ agentic traffic trend."
                                 color="cyan"
                                 delay={0.3}
                             />
@@ -63,30 +63,30 @@ export const ValueProps = () => {
                     <div className="space-y-8">
                         <div className="flex items-center gap-3 mb-8">
                             <div className="px-4 py-1.5 rounded-full bg-purple-950/50 border border-purple-500/20 text-purple-400 text-xs font-bold uppercase tracking-wider">
-                                For Developers
+                                For Agent Developers
                             </div>
-                            <h3 className="text-2xl font-bold">Speed & Reliability</h3>
+                            <h3 className="text-2xl font-bold">Zero-Click Integration</h3>
                         </div>
 
                         <div className="grid gap-4">
                             <ValueCard
                                 icon={Zap}
-                                title="Lightning Speed"
-                                description="Eliminate weeks of custom tool definition. Single SDK call to integrate any platform instantly."
+                                title="Instant E-Commerce Tools"
+                                description="Enable zero-click buying in minutes. Pre-built purchase flows, cart management, and checkout tools for any e-commerce API."
                                 color="purple"
                                 delay={0.1}
                             />
                             <ValueCard
                                 icon={Shield}
-                                title="Built-in Reliability"
-                                description="Tools curated by providers. Auto-handling of auth, rate limits, and validation errors."
+                                title="Purchase-Ready Tools"
+                                description="Curated tools optimized for agent purchases. Handle payment, shipping, and inventory checks automatically."
                                 color="purple"
                                 delay={0.2}
                             />
                             <ValueCard
                                 icon={RefreshCw}
-                                title="Zero Maintenance"
-                                description="API updates don't break your agent. Opt-in to improvements without code changes."
+                                title="Future-Proof Integration"
+                                description="E-commerce APIs evolve. Your agent stays compatible. Zero maintenance as providers optimize for agent traffic."
                                 color="purple"
                                 delay={0.3}
                             />
