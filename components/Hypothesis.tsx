@@ -13,18 +13,18 @@ export const Hypothesis = () => {
                         className="space-y-6"
                     >
                         <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
-                            The Agentic Gap
+                            The E-Commerce Shift
                         </h2>
                         <p className="text-xl text-gray-400 leading-relaxed">
-                            The web is shifting to an agentic layer led by platforms like Comet and Manus.
+                            <strong className="text-white">Walmart has seen over 20% of their traffic become agentic.</strong> Zero-click buying is a clear trend among e-commerce.
                             <br /><br />
-                            <strong className="text-white">API Providers</strong> have no visibility or control over agents.
+                            <strong className="text-white">E-Commerce APIs</strong> aren't built for agent-driven purchases. Missing intent mapping, zero-click flows, and agent observability.
                             <br />
-                            <strong className="text-white">Developers</strong> spend weeks manually integrating each API.
+                            <strong className="text-white">Agent Developers</strong> struggle to enable seamless buying experiences without weeks of custom integration work.
                         </p>
                         <div className="p-6 bg-cyan-950/30 border border-cyan-500/20 rounded-2xl backdrop-blur-sm">
                             <p className="text-lg text-cyan-100 font-medium italic">
-                                "The solution is an agent access layer that turns any REST API into agent-ready tools in minutes."
+                                "Turn your e-commerce API into an agent-ready platform that enables zero-click buying in minutes."
                             </p>
                         </div>
                         <motion.div

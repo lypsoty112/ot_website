@@ -50,25 +50,25 @@ export const Solution = () => {
                                     </div>
                                     <h3 className="text-2xl font-bold mb-4">1. Connect & Define</h3>
                                     <p className="text-gray-400 leading-relaxed">
-                                        Provide your base URL and auth. Define behavioral goals (e.g., "Active purchase" vs "Browsing"). We generate specialized tools from your endpoints.
+                                        Connect your e-commerce API. Define purchase flows and product access rules. We generate zero-click buying tools optimized for agent behavior.
                                     </p>
                                 </div>
                                 <div className="p-8 bg-white/5 rounded-3xl border border-white/10 hover:border-cyan-500/30 transition-colors group">
                                     <div className="w-12 h-12 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                         <BarChart className="w-6 h-6 text-blue-400" />
                                     </div>
-                                    <h3 className="text-2xl font-bold mb-4">2. Monitor Behavior</h3>
+                                    <h3 className="text-2xl font-bold mb-4">2. Track Agent Traffic</h3>
                                     <p className="text-gray-400 leading-relaxed">
-                                        See how agents use your tools. Success rates, failure patterns, and semantic intent. Understand how end-users *think* about your product.
+                                        Monitor agent-driven purchases. Conversion rates, zero-click success, and purchase patterns. Compare agent vs human buying behavior.
                                     </p>
                                 </div>
                                 <div className="p-8 bg-white/5 rounded-3xl border border-white/10 hover:border-cyan-500/30 transition-colors group">
                                     <div className="w-12 h-12 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                         <Rocket className="w-6 h-6 text-purple-400" />
                                     </div>
-                                    <h3 className="text-2xl font-bold mb-4">3. Auto-Improve</h3>
+                                    <h3 className="text-2xl font-bold mb-4">3. Optimize for Agents</h3>
                                     <p className="text-gray-400 leading-relaxed">
-                                        Tools update automatically based on usage data. Versioning keeps existing agents stable while new integrations get the best tools.
+                                        Purchase flows improve based on agent behavior. Versioning keeps existing agents stable while new integrations get optimized zero-click tools.
                                     </p>
                                 </div>
                             </div>
@@ -87,27 +87,27 @@ export const Solution = () => {
                                     <div className="w-12 h-12 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                         <Zap className="w-6 h-6 text-purple-400" />
                                     </div>
-                                    <h3 className="text-2xl font-bold mb-4">1. Integrate in Minutes</h3>
+                                    <h3 className="text-2xl font-bold mb-4">1. Enable Zero-Click Buying</h3>
                                     <p className="text-gray-400 leading-relaxed">
-                                        One SDK for any supported API. Single line of code to add tools. No more weeks of manual integration work.
+                                        One SDK for any e-commerce API. Enable zero-click purchases in minutes. No weeks of custom checkout flow integration.
                                     </p>
                                 </div>
                                 <div className="p-8 bg-white/5 rounded-3xl border border-white/10 hover:border-purple-500/30 transition-colors group">
                                     <div className="w-12 h-12 bg-pink-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                         <Shield className="w-6 h-6 text-pink-400" />
                                     </div>
-                                    <h3 className="text-2xl font-bold mb-4">2. Auth & Curation</h3>
+                                    <h3 className="text-2xl font-bold mb-4">2. Purchase-Ready Tools</h3>
                                     <p className="text-gray-400 leading-relaxed">
-                                        We handle OAuth and keys securely. You get curated, purpose-built tools with typed parameters, not raw endpoints.
+                                        Secure payment handling and auth. Get curated purchase tools: add_to_cart, checkout, track_order - not raw API endpoints.
                                     </p>
                                 </div>
                                 <div className="p-8 bg-white/5 rounded-3xl border border-white/10 hover:border-purple-500/30 transition-colors group">
                                     <div className="w-12 h-12 bg-green-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                                         <RefreshCw className="w-6 h-6 text-green-400" />
                                     </div>
-                                    <h3 className="text-2xl font-bold mb-4">3. Maintenance-Free</h3>
+                                    <h3 className="text-2xl font-bold mb-4">3. Future-Proof</h3>
                                     <p className="text-gray-400 leading-relaxed">
-                                        API updates don't break your agent. We handle versioning and compatibility. Opt-in to improvements without refactoring.
+                                        E-commerce APIs evolve. Your zero-click buying flows stay compatible. Opt-in to new purchase optimizations without refactoring.
                                     </p>
                                 </div>
                             </div>

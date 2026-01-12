@@ -20,18 +20,20 @@ export const Comparison = () => {
 
     const oldCode = `{
   "openapi": "3.0.0",
-  "info": { "title": "Shop API", "version": "1.0.0" },
+  "info": { "title": "E-Commerce API", "version": "1.0.0" },
   "paths": {
     "/products": {
       "get": {
         "parameters": [
-          { "name": "limit", "in": "query", "schema": { "type": "integer" } },
-          { "name": "offset", "in": "query", "schema": { "type": "integer" } }
+          { "name": "limit", "in": "query" },
+          { "name": "offset", "in": "query" }
         ]
       }
-    }
+    },
+    "/cart": { "post": { ... } },
+    "/checkout": { "post": { ... } }
   }
-  // ... 480 more lines of schema hell
+  // ... 480 more lines, no agent intent mapping
 }`;
 
     return (
@@ -47,9 +49,9 @@ export const Comparison = () => {
                         <CheckCircle className="w-3 h-3" />
                         <span>Problem</span>
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-bold">Tools ≠ Endpoints</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold">Zero-Click Tools ≠ REST Endpoints</h2>
                     <p className="text-gray-400 text-lg leading-relaxed">
-                        A single endpoint might become multiple specialized tools. opentoolset analyzes your endpoints and creates AI-ready tools optimized for agent behavior, not just REST structure.
+                        E-commerce APIs aren't built for zero-click buying. opentoolset transforms your endpoints into agent-ready purchase tools optimized for seamless, human-free transactions.
                     </p>
                 </motion.div>
 
@@ -78,11 +80,11 @@ export const Comparison = () => {
                         <div className="space-y-3">
                             <div className="flex items-center gap-3 p-3 bg-cyan-500/10 rounded-lg border border-cyan-500/20">
                                 <Search className="w-4 h-4 text-cyan-400" />
-                                <span className="text-cyan-100">search_products_by_intent</span>
+                                <span className="text-cyan-100">find_and_purchase_product</span>
                             </div>
                             <div className="flex items-center gap-3 p-3 bg-cyan-500/10 rounded-lg border border-cyan-500/20">
                                 <Activity className="w-4 h-4 text-cyan-400" />
-                                <span className="text-cyan-100">check_availability_realtime</span>
+                                <span className="text-cyan-100">zero_click_checkout</span>
                             </div>
                         </div>
                         <div className="mt-8 pt-6 border-t border-cyan-500/20">

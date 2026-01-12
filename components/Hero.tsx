@@ -56,13 +56,13 @@ export const Hero = () => {
                 className="z-10 text-center max-w-5xl"
             >
                 <span className="inline-block px-4 py-1.5 mb-6 rounded-full bg-white/5 border border-white/10 text-xs font-semibold tracking-wider uppercase text-cyan-400">
-                    The Agent Access Layer
+                    E-Commerce API Platform
                 </span>
                 <h1 className="text-5xl md:text-8xl font-extrabold tracking-tight mb-6 bg-gradient-to-b from-white via-white to-gray-500 bg-clip-text text-transparent leading-[1.1]">
-                    Turn your REST API into <br /> an AI Agent platform.
+                    Enable zero-click buying <br /> for AI agents.
                 </h1>
                 <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-3xl mx-auto leading-relaxed">
-                    The solution that turns any REST API into agent-ready tools in minutes. Eliminate integration work for developers while giving API providers the observability and control they're missing.
+                    Walmart sees 20%+ agentic traffic. Zero-click buying is the future. Turn your e-commerce API into agent-ready tools that enable seamless purchases without human intervention.
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -79,7 +79,7 @@ export const Hero = () => {
                             </button>
                         </div>
                     </div>
-                    <button 
+                    <button
                         onClick={() => window.open('https://www.notion.so/brevisai/OpenToolset-Hypothesis-doc-2e1c2084afbe803fb63bf9fbd729a295?source=copy_link', '_blank')}
                         className="px-6 py-3 rounded-xl border border-white/20 bg-white/5 backdrop-blur-xl text-white font-bold hover:bg-white/10 transition-colors whitespace-nowrap"
                     >
